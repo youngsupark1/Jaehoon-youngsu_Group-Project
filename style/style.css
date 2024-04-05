@@ -1,3 +1,6 @@
+/* 공유 CSS */
+/* 공유 CSS */
+
 body {
   display: flex;
   flex-direction: column;
@@ -6,9 +9,9 @@ body {
 }
 
 nav {
-  width: 100%;
+  width: 1320px;
   height: 130px;
-  background-color: aqua;
+  background-color: #1f1a24;
 }
 
 header {
@@ -40,3 +43,53 @@ footer {
   height: 330px;
   background-color:brown;
 }
+
+/* nav section */
+/* nav section */
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+div.login-options {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+}
+
+div.login-options a {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 12px;
+  color: white;
+}
+
+div.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+a.logo {
+  width: 240px;
+  height: 60px;
+  background-image: url("../img/catchonLogolmg.png");
+  background-size: cover;
+}
+
+ul.options {
+  display: flex;  
+}
+
+ul.options li {
+  margin-left: 32px;
+}
+
+ul.options li a {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
