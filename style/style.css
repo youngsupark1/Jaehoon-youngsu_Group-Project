@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1a24;
+}
+
+nav {
+  width: 100%;
+  height: 130px;
+  background-color: aqua;
+}
+
+header {
+  width: 100%;
+  height: 530px;
+  background-color: blanchedalmond;
+}
+
+section.timeline {
+  width: 100%;
+  height: 400px;
+  background-color:cadetblue;
+}
+
+section.month {
+  width: 100%;
+  height: 700px;
+  background-color:cornflowerblue;
+}
+
+.sectiontitle {
+  width: 100%;
+  height: 70px;
+  font-size: 50px;
+  color: white;
+}
+
+section.total {
+  width: 100%;
+  height: 700px;
+  background-color:darkorange;
+}
+
+footer {
+  width: 100%;
+  height: 330px;
+  background-color:brown;
+}
